@@ -18,7 +18,7 @@ int main()
 	cout << "  |" << setw(6) << "\\" << endl;
 	cout << "  |" << setw(7) << "\\" << endl;
 	cout << "  ---------" << endl;
-	cout << setw(6) << "b /n" << endl;
+	cout << setw(6) << "b \n" << endl;
 	cout << "Masukan nilai a :";
 	cin >> a;
 	cout << "Masukan nilai b :";
@@ -28,5 +28,6 @@ int main()
 
 	system("pause");
 	return 0;
+
 
 }
